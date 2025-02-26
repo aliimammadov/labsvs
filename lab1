@@ -1,0 +1,10 @@
+import math
+s = math.sqrt(79.836 * math.log(3)) - math.sqrt(156.374 * math.log(5))
+n = math.tan(4) * math.cos(math.sin(70) + math.cos(1/2))
+if s <= abs(n):
+    k = math.sqrt(abs(s * math.e*2 - math.e*(-2)))
+else:
+    k = math.sqrt(abs(s - n))
+print(f"s = {s}")
+print(f"n = {n}")
+print(f"k = {k}")
