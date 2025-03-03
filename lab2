@@ -1,0 +1,12 @@
+import numpy as np
+b_values = np.arange(1, 2.1, 0.1)
+a = 1
+results = []
+for b in b_values:
+    if b**2 - a > 2:
+        z = 3 * b - a
+    else:
+        z = 2 * a + b
+    results.append((b, z))
+for b, z in results:
+    print(f"b = {b:.1f}, z = {z:.2f}")
