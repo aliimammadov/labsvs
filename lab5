@@ -1,0 +1,2 @@
+import random
+print(sum([random.randint(11, 21) for _ in range(int(input()))][::2]))
