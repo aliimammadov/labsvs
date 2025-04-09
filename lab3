@@ -1,0 +1,15 @@
+import math
+x=0.2
+epsilon=0.01
+def hesabla(x,epsilon):
+    n=0
+    t=math.sin(x)
+    total = t
+    while abs(t) >= epsilon:
+        n+=1
+        k=2*n+1
+        t=math.sin(k*x)/k
+        total+=t
+    return total, n
+cvb, trm=hesabla(x,epilson)
+print(cvb)
