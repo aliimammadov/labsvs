@@ -1,6 +1,3 @@
 import random
-a=int(input())
-s=[]
-for i in range(a):
-    s.append(random.randint(11,21))
-print(s)
+print([random.randint(11, 21) for _ in range(int(input()))])
+
