@@ -1,0 +1,15 @@
+# n ölçüsünü daxil et
+n = int(input())
+A = []
+for i in range(n):
+    row = []
+    for j in range(n):
+        element = int(input(f"A[{i}][{j}] = "))
+        if element < 0:
+            element = 0
+        row.append(element)
+    A.append(row)
+for row in A:
+    for elem in row:
+        print(elem, end="\t")
+    print()
