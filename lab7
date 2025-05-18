@@ -1,0 +1,26 @@
+numbers = []
+n = int(input())
+for i in range(n):
+    num = int(input())
+    numbers.append(num)
+
+with open("input.txt", "w") as file:
+    for num in numbers:
+        file.write(str(num) + "\n")
+
+selected_numbers = []
+with open("input.txt", "r") as file:
+    for line in file:
+        num = int(line.strip())
+        if num % 3 == 2:
+            selected_numbers.append(num)
+
+with open("output.txt", "w") as file:
+    for num in selected_numbers:
+        file.write(str(num) + "\n")
+
+if selected_numbers:
+    average = sum(selected_numbers) / len(selected_numbers)
+    print(average)
+else:
+    print("0")
