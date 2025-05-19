@@ -1,0 +1,70 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+127.0.0.1       chat.openai.com
+127.0.0.1       openai.com
+127.0.0.1       chatgpt.com
+127.0.0.1       www.chat.openai.com
+127.0.0.1       www.openai.com
+127.0.0.1       www.chatgpt.com
+127.0.0.1       google.com
+127.0.0.1       www.google.com
+127.0.0.1       google.az
+127.0.0.1       www.google.az
+127.0.0.1       google.com.tr
+127.0.0.1       www.google.com.tr
+127.0.0.1       youtube.com
+127.0.0.1       www.youtube.com
+127.0.0.1       wikipedia.org
+127.0.0.1       www.wikipedia.org
+127.0.0.1       quora.com
+127.0.0.1       www.quora.com
+127.0.0.1       stackoverflow.com
+127.0.0.1       www.stackoverflow.com
+127.0.0.1       github.com
+127.0.0.1       www.github.com
+127.0.0.1       reddit.com
+127.0.0.1       www.reddit.com
+127.0.0.1       medium.com
+127.0.0.1       www.medium.com
+127.0.0.1       ask.com
+127.0.0.1       www.ask.com
+127.0.0.1       codereview.stackexchange.com
+127.0.0.1       www.codereview.stackexchange.com
+127.0.0.1       wolframalpha.com
+127.0.0.1       www.wolframalpha.com
+127.0.0.1       bing.com
+127.0.0.1       www.bing.com
+127.0.0.1       siri.com
+127.0.0.1       www.siri.com
+127.0.0.1       eolymp.com
+127.0.0.1       www.eolymp.com
+127.0.0.1	www.web.whatsapp.com
+127.0.0.1	web.whatsapp.com
+127.0.0.1	web.telegram.org
+127.0.0.1	www.web.telegram.org
+127.0.0.1	yandex.com
+127.0.0.1	www.yandex.com
+127.0.0.1	yandex.com.tr
+127.0.0.1	www.yandex.com.tr
+127.0.0.1	duckduckgo.com
+127.0.0.1	www.duckduckgo.com
+
+
+# localhost name resolution is handled within DNS itself.
+127.0.0.1       localhost
+::1             localhost
